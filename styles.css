@@ -1,0 +1,44 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 50px; /* Increase margin top to create more space */
+    margin-left: 4cm; /* Position buttons 2cm from the left */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.btn {
+    padding: 8px 20px;
+    width: 300px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+    outline: 2px solid white; /* Add this line to change the outline color */
+}
+
+/* Center the roadmap heading */
+.roadmap-heading {
+    text-align: center;
+}
+
